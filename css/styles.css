@@ -1,0 +1,97 @@
+h1{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+}
+.black-heading{
+  color: black;
+  text-align: center;
+  padding: 2%;
+}
+.white-heading{
+  text-align: center;
+  padding: 2%;
+}
+h2{
+  color: white;
+  font-size: 3rem;
+}
+h3{
+  font-size: 2rem;
+}
+p{
+  color: #fff;
+    font-size: 1.2rem;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+ul{
+  font-size: 1.5rem;
+}
+body{
+  margin: 7%;
+  background-image: linear-gradient(#a1665e,#ecbcb4);
+}
+#title {
+  background-color: #19191A;
+  padding-bottom: 3%;
+  border-radius: 50px 50px 0px 0px;
+
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold; 
+}
+@media only screen and (max-width: 1024px) and (min-width: 992px)
+{
+  .intro{
+    margin: 7% 0% 0% 60%;
+    text-align: center;
+}
+}
+.title-img{
+  width: 100%;
+  z-index: 0;
+    position: absolute;
+}
+@media screen and (max-width: 990px){
+  .intro {
+    margin-top: 80%;
+    text-align: center;
+}
+}
+@media screen and (min-width: 1024px){
+  .intro{
+    margin: 25% 0% 0% 60%;
+    text-align: center;
+  }
+}
+
+#skills{
+  padding: 5%;
+  background-color: #F7FAFA;
+  position: relative;
+  z-index: 1;
+}
+
+#education{
+  background-color: #19191A;
+  text-align: center;
+  padding: 5%;
+}
+.carousel-item{
+}
+
+#project{
+  padding: 5%;
+  background-color: #F7FAFA;
+}
+#contact{
+  background-color: #19191A;
+  text-align: center;
+  padding: 5%;
+    border-radius: 0px 0px 50px 50px;
+}
